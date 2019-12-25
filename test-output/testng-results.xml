@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7307" started-at="2019-12-25T16:10:06 CET" finished-at="2019-12-25T16:10:13 CET">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7307" started-at="2019-12-25T16:10:06 CET" finished-at="2019-12-25T16:10:13 CET">
+      <class name="com.demoaut.NewTours2.HomePageValidation">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.demoaut.NewTours2.HomePageValidation@5bc79255]" name="initialize" is-config="true" duration-ms="7092" started-at="2019-12-25T16:10:06 CET" finished-at="2019-12-25T16:10:13 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="menuTabValidation()[pri:0, instance:com.demoaut.NewTours2.HomePageValidation@5bc79255]" name="menuTabValidation" duration-ms="69" started-at="2019-12-25T16:10:13 CET" finished-at="2019-12-25T16:10:13 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuTabValidation -->
+        <test-method status="PASS" signature="validateFooter()[pri:0, instance:com.demoaut.NewTours2.HomePageValidation@5bc79255]" name="validateFooter" duration-ms="47" started-at="2019-12-25T16:10:13 CET" finished-at="2019-12-25T16:10:13 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFooter -->
+        <test-method status="PASS" signature="validatePageTitle()[pri:0, instance:com.demoaut.NewTours2.HomePageValidation@5bc79255]" name="validatePageTitle" duration-ms="15" started-at="2019-12-25T16:10:13 CET" finished-at="2019-12-25T16:10:13 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demoaut.NewTours2.HomePageValidation@5bc79255]" name="tearDown" is-config="true" duration-ms="65" started-at="2019-12-25T16:10:13 CET" finished-at="2019-12-25T16:10:13 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoaut.NewTours2.HomePageValidation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
