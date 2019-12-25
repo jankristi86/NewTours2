@@ -10,6 +10,7 @@ public class HomePage {
 
 	private By footer = By.xpath("//div[@class='footer']");
 	private By menuTab = By.xpath("//body/div/table/tbody/tr/td/table/tbody/tr[2]/td[1]");
+	private By regBtn = By.linkText("REGISTER");
 
 	public HomePage() {
 	}
@@ -24,6 +25,10 @@ public class HomePage {
 
 	public WebElement getMenuTab() {
 		return dr.findElement(menuTab);
+	}
+
+	public WebElement getRegBtn() {
+		return dr.findElement(regBtn);
 	}
 
 }

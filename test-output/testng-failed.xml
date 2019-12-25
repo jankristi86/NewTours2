@@ -3,15 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demoaut.NewTours2.HomePageValidation">
+      <class name="com.demoaut.NewTours2.RegisterPageTest">
         <methods>
-          <include name="menuTabValidation"/>
-          <include name="validatePageTitle"/>
-          <include name="tearDown"/>
-          <include name="validateFooter"/>
           <include name="initialize"/>
+          <include name="signOut"/>
+          <include name="tearDown"/>
+          <include name="registerExcelDriven"/>
         </methods>
-      </class> <!-- com.demoaut.NewTours2.HomePageValidation -->
+      </class> <!-- com.demoaut.NewTours2.RegisterPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
