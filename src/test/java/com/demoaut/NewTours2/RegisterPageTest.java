@@ -41,15 +41,14 @@ public class RegisterPageTest extends Base2 {
 		rp.getPassword().sendKeys(pass);
 		rp.getConfirmPass().sendKeys(confPass);
 		rp.getSubmit().click();
-
 	}
 
 	@DataProvider
 	public Object[][] getData() {
 
 		Object[][] data = new Object[1][12];
-		data[0][0] = "Pera";
-		data[0][1] = "Peric";
+		data[0][0] = "Joca";
+		data[0][1] = "Jocic";
 		data[0][2] = "0800200200";
 		data[0][3] = "valid@email.com";
 		data[0][4] = "My Home address";
@@ -68,43 +67,49 @@ public class RegisterPageTest extends Base2 {
 	public void registerExcelDriven() throws Exception {
 		String data;
 		ExcelUtils.setExcelFile(Constant.PATH_TESTDATA + Constant.FILE_DATA, Constant.SHEET1);
-		RegisterPage rp = new RegisterPage(dr);
-		data = ExcelUtils.getCellData(1, 0);
-		rp.getFirstName().sendKeys(data);
-		data = ExcelUtils.getCellData(1, 1);
-		rp.getLastName().sendKeys(data);
-		data = ExcelUtils.getCellData(1, 2);
-		rp.getPhone().sendKeys(data);
-		data = ExcelUtils.getCellData(1, 3);
-		rp.getEmail().sendKeys(data);
-		data = ExcelUtils.getCellData(1, 4);
-		rp.getAddress().sendKeys(data);
-		data = ExcelUtils.getCellData(1, 5);
-		rp.getCity().sendKeys(data);
-		data = ExcelUtils.getCellData(1, 6);
-		rp.getState().sendKeys(data);
-		data = ExcelUtils.getCellData(1, 7);
-		rp.getPostalCode().sendKeys(data);
-		rp.getSelectCountry().sendKeys("ser");
-		data = ExcelUtils.getCellData(1, 8);
-		rp.getUserName().sendKeys(data);
-		data = ExcelUtils.getCellData(1, 9);
-		rp.getPassword().sendKeys(data);
-		data = ExcelUtils.getCellData(1, 10);
-		rp.getConfirmPass().sendKeys(data);
-		rp.getSubmit().click();
+		for (int i = 1; i < ExcelUtils.getWorkSheet().getLastRowNum() + 1; i++) {
+			RegisterPage rp = new RegisterPage(dr);
+			data = ExcelUtils.getCellData(i, 0);
+			rp.getFirstName().sendKeys(data);
+			data = ExcelUtils.getCellData(i, 1);
+			rp.getLastName().sendKeys(data);
+			data = ExcelUtils.getCellData(i, 2);
+			rp.getPhone().sendKeys(data);
+			data = ExcelUtils.getCellData(i, 3);
+			rp.getEmail().sendKeys(data);
+			data = ExcelUtils.getCellData(i, 4);
+			rp.getAddress().sendKeys(data);
+			data = ExcelUtils.getCellData(i, 5);
+			rp.getCity().sendKeys(data);
+			data = ExcelUtils.getCellData(i, 6);
+			rp.getState().sendKeys(data);
+			data = ExcelUtils.getCellData(i, 7);
+			rp.getPostalCode().sendKeys(data);
+			rp.getSelectCountry().sendKeys("ser");
+			data = ExcelUtils.getCellData(i, 8);
+			rp.getUserName().sendKeys(data);
+			data = ExcelUtils.getCellData(i, 9);
+			rp.getPassword().sendKeys(data);
+			data = ExcelUtils.getCellData(i, 10);
+			rp.getConfirmPass().sendKeys(data);
+			rp.getSubmit().click();
+			if (rp.getRegConfirmation().isDisplayed()) {
+				rp.getSignOff().click();
+				rp.getRegisterBtn().click();
+
+			}
+		}
 	}
 
 	@AfterMethod
 	public void signOut() {
 		RegisterPage rp = new RegisterPage(dr);
-		rp.getSignOff().click();
+		// rp.getSignOff().click();
 		rp.getRegisterBtn().click();
 	}
 
 	@AfterTest
 	public void tearDown() {
-
 		dr.close();
 		dr = null;
 	}

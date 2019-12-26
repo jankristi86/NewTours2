@@ -1,99 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17583" started-at="2019-12-25T20:07:11 CET" finished-at="2019-12-25T20:07:29 CET">
+  <suite name="Default suite" duration-ms="15457" started-at="2019-12-26T16:59:08 CET" finished-at="2019-12-26T16:59:23 CET">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17583" started-at="2019-12-25T20:07:11 CET" finished-at="2019-12-25T20:07:29 CET">
-      <class name="com.demoaut.NewTours2.RegisterPageTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.demoaut.NewTours2.RegisterPageTest@3dd4520b]" name="initialize" is-config="true" duration-ms="8524" started-at="2019-12-25T20:07:11 CET" finished-at="2019-12-25T20:07:20 CET">
+    <test name="Default test" duration-ms="15457" started-at="2019-12-26T16:59:08 CET" finished-at="2019-12-26T16:59:23 CET">
+      <class name="com.demoaut.NewTours2.LoginPageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.demoaut.NewTours2.LoginPageTest@47ef968d]" name="initialize" is-config="true" duration-ms="7992" started-at="2019-12-26T16:59:08 CET" finished-at="2019-12-26T16:59:16 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="registerDataProviderDriven(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.demoaut.NewTours2.RegisterPageTest@3dd4520b]" name="registerDataProviderDriven" duration-ms="2422" started-at="2019-12-25T20:07:20 CET" data-provider="getData" finished-at="2019-12-25T20:07:22 CET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Pera]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Peric]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[0800200200]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[valid@email.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[My Home address]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[My City]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[My State]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[91080]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[ser]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[perica24]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="loginExcelDriven()[pri:0, instance:com.demoaut.NewTours2.LoginPageTest@47ef968d]" name="loginExcelDriven" duration-ms="6795" started-at="2019-12-26T16:59:16 CET" finished-at="2019-12-26T16:59:23 CET">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerDataProviderDriven -->
-        <test-method status="PASS" signature="signOut()[pri:0, instance:com.demoaut.NewTours2.RegisterPageTest@3dd4520b]" name="signOut" is-config="true" duration-ms="2570" started-at="2019-12-25T20:07:22 CET" finished-at="2019-12-25T20:07:25 CET">
+        </test-method> <!-- loginExcelDriven -->
+        <test-method status="PASS" signature="signOut()[pri:0, instance:com.demoaut.NewTours2.LoginPageTest@47ef968d]" name="signOut" is-config="true" duration-ms="580" started-at="2019-12-26T16:59:23 CET" finished-at="2019-12-26T16:59:23 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signOut -->
-        <test-method status="PASS" signature="registerExcelDriven()[pri:0, instance:com.demoaut.NewTours2.RegisterPageTest@3dd4520b]" name="registerExcelDriven" duration-ms="2423" started-at="2019-12-25T20:07:25 CET" finished-at="2019-12-25T20:07:27 CET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerExcelDriven -->
-        <test-method status="PASS" signature="signOut()[pri:0, instance:com.demoaut.NewTours2.RegisterPageTest@3dd4520b]" name="signOut" is-config="true" duration-ms="1524" started-at="2019-12-25T20:07:27 CET" finished-at="2019-12-25T20:07:29 CET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signOut -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demoaut.NewTours2.RegisterPageTest@3dd4520b]" name="tearDown" is-config="true" duration-ms="56" started-at="2019-12-25T20:07:29 CET" finished-at="2019-12-25T20:07:29 CET">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demoaut.NewTours2.LoginPageTest@47ef968d]" name="tearDown" is-config="true" duration-ms="49" started-at="2019-12-26T16:59:23 CET" finished-at="2019-12-26T16:59:23 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.demoaut.NewTours2.RegisterPageTest -->
+      </class> <!-- com.demoaut.NewTours2.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
