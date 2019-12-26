@@ -11,4 +11,9 @@
 			<class name="com.demoaut.NewTours2.RegisterPageTest" />
 		</classes>
 	</test>
+	<test thread-count="5" name="LoginPageTest">
+		<classes>
+			<class name="com.demoaut.NewTours2.LoginPageTest" />
+		</classes>
+	</test>
 </suite>
