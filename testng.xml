@@ -16,4 +16,9 @@
 			<class name="com.demoaut.NewTours2.LoginPageTest" />
 		</classes>
 	</test>
+	<test thread-count="5" name="FlightFinderTest">
+		<classes>
+			<class name="com.demoaut.NewTours2.FlightFinderTest" />
+		</classes>
+	</test>
 </suite>

@@ -1,5 +1,7 @@
 package com.demoaut.NewTours2;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -72,8 +74,8 @@ public class FlightFinder {
 	}
 
 	// Service Class
-	public WebElement getServClass() {
-		return dr.findElement(servClass);
+	public List<WebElement> getServClass() {
+		return dr.findElements(servClass);
 	}
 
 	// airline option

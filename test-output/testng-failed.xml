@@ -3,14 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demoaut.NewTours2.LoginPageTest">
+      <class name="com.demoaut.NewTours2.FlightFinderTest">
         <methods>
-          <include name="loginExcelDriven"/>
           <include name="initialize"/>
-          <include name="signOut"/>
-          <include name="tearDown"/>
+          <include name="findFlight"/>
         </methods>
-      </class> <!-- com.demoaut.NewTours2.LoginPageTest -->
+      </class> <!-- com.demoaut.NewTours2.FlightFinderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
