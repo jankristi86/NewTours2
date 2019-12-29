@@ -2,6 +2,8 @@ package com.demoaut.NewTours2;
 
 import java.io.IOException;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -12,6 +14,8 @@ import resources.Constant;
 import resources.ExcelUtils;
 
 public class LoginPageTest extends Base2 {
+	public static Logger log = LogManager.getLogger(Base2.class.getName());
+
 
 	@BeforeTest
 	public void initialize() throws IOException {
@@ -37,6 +41,7 @@ public class LoginPageTest extends Base2 {
 			if (lp.logConfirm().isDisplayed()) {
 				RegisterPage rp = new RegisterPage(dr);
 				rp.getSignOff().click();
+				log.info("Successfully logged users with excelDriven data");
 			}
 		}
 
@@ -46,6 +51,8 @@ public class LoginPageTest extends Base2 {
 	public void signOut() {
 		LoginPage lp = new LoginPage(dr);
 		lp.getSignOn().click();
+		log.info("Successfully logged out after every login");
+
 	}
 
 	@AfterTest

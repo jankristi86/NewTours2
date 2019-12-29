@@ -1,15 +1,19 @@
 package resources;
 
+import java.io.File;
 import java.io.FileInputStream;
 
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.io.FileHandler;
 
 public class Base2 {
 
@@ -44,5 +48,11 @@ public class Base2 {
 		dr.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		return dr;
 	}
+
+//	public void getScreenshot(String result) throws IOException {
+//		File src = ((TakesScreenshot) dr).getScreenshotAs(OutputType.FILE);
+//		FileHandler.copy(src, new File(
+//				System.getProperty("user.dir") + "//src//main//java//failureScreenshot//" + result + "screenshot.png"));
+//	}
 
 }

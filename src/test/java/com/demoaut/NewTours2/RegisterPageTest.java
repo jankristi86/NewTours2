@@ -2,6 +2,8 @@ package com.demoaut.NewTours2;
 
 import java.io.IOException;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -13,6 +15,8 @@ import resources.Constant;
 import resources.ExcelUtils;
 
 public class RegisterPageTest extends Base2 {
+	public static Logger log = LogManager.getLogger(Base2.class.getName());
+
 
 	@BeforeTest
 	public void initialize() throws IOException {
@@ -20,6 +24,7 @@ public class RegisterPageTest extends Base2 {
 		dr.get(prop.getProperty("url"));
 		HomePage hp = new HomePage(dr);
 		hp.getRegBtn().click();
+		log.info("Reg btn successfully hitted");
 
 	}
 
@@ -41,6 +46,8 @@ public class RegisterPageTest extends Base2 {
 		rp.getPassword().sendKeys(pass);
 		rp.getConfirmPass().sendKeys(confPass);
 		rp.getSubmit().click();
+		log.info("Successfully registration with data provider data");
+
 	}
 
 	@DataProvider
@@ -96,6 +103,8 @@ public class RegisterPageTest extends Base2 {
 			if (rp.getRegConfirmation().isDisplayed()) {
 				rp.getSignOff().click();
 				rp.getRegisterBtn().click();
+				log.info("Successfully registration with ExcelDriven data");
+
 
 			}
 		}
