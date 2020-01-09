@@ -3,8 +3,8 @@
 <suite name="Suite">
 	<listeners>
 		<!-- <listener class-name="resources.Listeners" /> -->
-		<!-- <listener class-name="resources.ExtentReporterNG" /> -->
-		<!-- <listener class-name="resources.ExtentManager" /> -->
+		<listener class-name="resources.ExtentReporterNG" /> 
+<!-- 		<listener class-name="resources.ExtentManager" /> -->
 	</listeners>
 
 	<test thread-count="5" name="HomePageTest">
