@@ -1,55 +1,6 @@
-15:51:07.446 [main] INFO  resources.Base2 - navigated to home page
-15:51:07.537 [main] INFO  resources.Base2 - Succesfully menu tab validated
-15:51:07.579 [main] INFO  resources.Base2 - Successfully validated footer
-15:51:07.591 [main] INFO  resources.Base2 - Successfully validated page title
-15:51:07.644 [main] INFO  resources.Base2 - After HomePage test, driver closed
-15:51:15.025 [main] INFO  resources.Base2 - Reg btn successfully hitted
-15:51:17.203 [main] INFO  resources.Base2 - Successfully registration with data provider data
-15:51:22.110 [main] INFO  resources.Base2 - Successfully registration with ExcelDriven data
-15:51:26.588 [main] INFO  resources.Base2 - Successfully registration with ExcelDriven data
-15:51:40.022 [main] INFO  resources.Base2 - Successfully logged users with excelDriven data
-15:51:43.386 [main] INFO  resources.Base2 - Successfully logged users with excelDriven data
-15:51:43.925 [main] INFO  resources.Base2 - Successfully logged out after every login
-15:59:45.344 [main] INFO  resources.Base2 - navigated to home page
-15:59:45.420 [main] INFO  resources.Base2 - Succesfully menu tab validated
-15:59:45.459 [main] INFO  resources.Base2 - Successfully validated footer
-15:59:45.470 [main] INFO  resources.Base2 - Successfully validated page title
-15:59:45.523 [main] INFO  resources.Base2 - After HomePage test, driver closed
-15:59:54.260 [main] INFO  resources.Base2 - Reg btn successfully hitted
-15:59:56.604 [main] INFO  resources.Base2 - Successfully registration with data provider data
-16:00:01.839 [main] INFO  resources.Base2 - Successfully registration with ExcelDriven data
-16:00:05.571 [main] INFO  resources.Base2 - Successfully registration with ExcelDriven data
-16:00:18.341 [main] INFO  resources.Base2 - Successfully logged users with excelDriven data
-16:00:21.926 [main] INFO  resources.Base2 - Successfully logged users with excelDriven data
-16:00:22.487 [main] INFO  resources.Base2 - Successfully logged out after every login
-17:01:39.885 [main] INFO  resources.Base2 - navigated to home page
-17:01:39.945 [main] INFO  resources.Base2 - Succesfully menu tab validated
-17:01:40.007 [main] INFO  resources.Base2 - Successfully validated footer
-17:01:40.014 [main] INFO  resources.Base2 - Successfully validated page title
-17:01:40.063 [main] INFO  resources.Base2 - After HomePage test, driver closed
-17:01:48.628 [main] INFO  resources.Base2 - Reg btn successfully hitted
-17:03:03.314 [main] INFO  resources.Base2 - Successfully registration with data provider data
-17:30:46.578 [main] INFO  resources.Base2 - navigated to home page
-17:30:46.652 [main] INFO  resources.Base2 - Succesfully menu tab validated
-17:30:46.684 [main] INFO  resources.Base2 - Successfully validated footer
-17:30:46.699 [main] INFO  resources.Base2 - Successfully validated page title
-17:30:46.764 [main] INFO  resources.Base2 - After HomePage test, driver closed
-17:30:54.250 [main] INFO  resources.Base2 - Reg btn successfully hitted
-17:31:08.749 [main] INFO  resources.Base2 - Successfully registration with data provider data
-17:31:58.450 [main] INFO  resources.Base2 - Successfully registration with ExcelDriven data
-17:32:34.579 [main] INFO  resources.Base2 - Successfully registration with ExcelDriven data
-17:33:01.152 [main] INFO  resources.Base2 - Successfully logged users with excelDriven data
-17:33:04.977 [main] INFO  resources.Base2 - Successfully logged users with excelDriven data
-17:33:05.558 [main] INFO  resources.Base2 - Successfully logged out after every login
-19:55:23.427 [main] INFO  resources.Base2 - navigated to home page
-19:55:23.511 [main] INFO  resources.Base2 - Succesfully menu tab validated
-19:55:23.551 [main] INFO  resources.Base2 - Successfully validated footer
-19:55:23.564 [main] INFO  resources.Base2 - Successfully validated page title
-19:55:23.621 [main] INFO  resources.Base2 - After HomePage test, driver closed
-19:55:30.778 [main] INFO  resources.Base2 - Reg btn successfully hitted
-19:55:58.402 [main] INFO  resources.Base2 - Successfully registration with data provider data
-19:56:43.180 [main] INFO  resources.Base2 - Successfully registration with ExcelDriven data
-19:57:26.422 [main] INFO  resources.Base2 - Successfully registration with ExcelDriven data
-19:58:08.771 [main] INFO  resources.Base2 - Successfully logged users with excelDriven data
-19:58:47.509 [main] INFO  resources.Base2 - Successfully logged users with excelDriven data
-19:58:48.074 [main] INFO  resources.Base2 - Successfully logged out after every login
+20:05:05.685 [main] INFO  resources.Base2 - Successfully registration with data provider data
+20:05:35.026 [main] INFO  resources.Base2 - Successfully registration with ExcelDriven data
+20:06:02.144 [main] INFO  resources.Base2 - Successfully registration with ExcelDriven data
+20:06:21.347 [main] INFO  resources.Base2 - Successfully logged users with excelDriven data
+20:06:40.696 [main] INFO  resources.Base2 - Successfully logged users with excelDriven data
+20:06:41.305 [main] INFO  resources.Base2 - Successfully logged out after every login
