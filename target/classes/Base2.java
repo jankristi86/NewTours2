@@ -49,10 +49,10 @@ public class Base2 {
 		return dr;
 	}
 
-//	public void getScreenshot(String result) throws IOException {
-//		File src = ((TakesScreenshot) dr).getScreenshotAs(OutputType.FILE);
-//		FileHandler.copy(src, new File(
-//				System.getProperty("user.dir") + "//src//main//java//failureScreenshot//" + result + "screenshot.png"));
-//	}
+	public void getScreenshot(String result) throws IOException {
+		File src = ((TakesScreenshot) dr).getScreenshotAs(OutputType.FILE);
+		FileHandler.copy(src, new File(
+				System.getProperty("user.dir") + "//src//main//java//failureScreenshot//" + result + "screenshot.png"));
+	}
 
 }

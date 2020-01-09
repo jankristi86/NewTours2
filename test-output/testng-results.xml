@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="56076" started-at="2020-01-09T15:59:37 CET" finished-at="2020-01-09T16:00:33 CET">
+  <suite name="Suite" duration-ms="251163" started-at="2020-01-09T19:55:15 CET" finished-at="2020-01-09T19:59:27 CET">
     <groups>
     </groups>
-    <test name="HomePageTest" duration-ms="7755" started-at="2020-01-09T15:59:37 CET" finished-at="2020-01-09T15:59:45 CET">
+    <test name="HomePageTest" duration-ms="7678" started-at="2020-01-09T19:55:15 CET" finished-at="2020-01-09T19:55:23 CET">
       <class name="com.demoaut.NewTours2.HomePageValidation">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.demoaut.NewTours2.HomePageValidation@4988d8b8]" name="initialize" is-config="true" duration-ms="7571" started-at="2020-01-09T15:59:37 CET" finished-at="2020-01-09T15:59:45 CET">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.demoaut.NewTours2.HomePageValidation@27ce24aa]" name="initialize" is-config="true" duration-ms="7481" started-at="2020-01-09T19:55:15 CET" finished-at="2020-01-09T19:55:23 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="menuTabValidation()[pri:0, instance:com.demoaut.NewTours2.HomePageValidation@4988d8b8]" name="menuTabValidation" duration-ms="58" started-at="2020-01-09T15:59:45 CET" finished-at="2020-01-09T15:59:45 CET">
+        <test-method status="PASS" signature="menuTabValidation()[pri:0, instance:com.demoaut.NewTours2.HomePageValidation@27ce24aa]" name="menuTabValidation" duration-ms="59" started-at="2020-01-09T19:55:23 CET" finished-at="2020-01-09T19:55:23 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- menuTabValidation -->
-        <test-method status="PASS" signature="validateFooter()[pri:0, instance:com.demoaut.NewTours2.HomePageValidation@4988d8b8]" name="validateFooter" duration-ms="35" started-at="2020-01-09T15:59:45 CET" finished-at="2020-01-09T15:59:45 CET">
+        <test-method status="PASS" signature="validateFooter()[pri:0, instance:com.demoaut.NewTours2.HomePageValidation@27ce24aa]" name="validateFooter" duration-ms="36" started-at="2020-01-09T19:55:23 CET" finished-at="2020-01-09T19:55:23 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateFooter -->
-        <test-method status="PASS" signature="validatePageTitle()[pri:0, instance:com.demoaut.NewTours2.HomePageValidation@4988d8b8]" name="validatePageTitle" duration-ms="8" started-at="2020-01-09T15:59:45 CET" finished-at="2020-01-09T15:59:45 CET">
+        <test-method status="PASS" signature="validatePageTitle()[pri:0, instance:com.demoaut.NewTours2.HomePageValidation@27ce24aa]" name="validatePageTitle" duration-ms="10" started-at="2020-01-09T19:55:23 CET" finished-at="2020-01-09T19:55:23 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePageTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demoaut.NewTours2.HomePageValidation@4988d8b8]" name="tearDown" is-config="true" duration-ms="49" started-at="2020-01-09T15:59:45 CET" finished-at="2020-01-09T15:59:45 CET">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demoaut.NewTours2.HomePageValidation@27ce24aa]" name="tearDown" is-config="true" duration-ms="52" started-at="2020-01-09T19:55:23 CET" finished-at="2020-01-09T19:55:23 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.demoaut.NewTours2.HomePageValidation -->
     </test> <!-- HomePageTest -->
-    <test name="RegisterUserTest" duration-ms="21596" started-at="2020-01-09T15:59:45 CET" finished-at="2020-01-09T16:00:07 CET">
+    <test name="RegisterUserTest" duration-ms="123312" started-at="2020-01-09T19:55:23 CET" finished-at="2020-01-09T19:57:27 CET">
       <class name="com.demoaut.NewTours2.RegisterPageTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.demoaut.NewTours2.RegisterPageTest@5c671d7f]" name="initialize" is-config="true" duration-ms="8677" started-at="2020-01-09T15:59:45 CET" finished-at="2020-01-09T15:59:54 CET">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.demoaut.NewTours2.RegisterPageTest@40ef3420]" name="initialize" is-config="true" duration-ms="7080" started-at="2020-01-09T19:55:23 CET" finished-at="2020-01-09T19:55:30 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="registerDataProviderDriven(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.demoaut.NewTours2.RegisterPageTest@5c671d7f]" name="registerDataProviderDriven" duration-ms="2338" started-at="2020-01-09T15:59:54 CET" data-provider="getData" finished-at="2020-01-09T15:59:56 CET">
+        <test-method status="PASS" signature="registerDataProviderDriven(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.demoaut.NewTours2.RegisterPageTest@40ef3420]" name="registerDataProviderDriven" duration-ms="27620" started-at="2020-01-09T19:55:30 CET" data-provider="getData" finished-at="2020-01-09T19:55:58 CET">
           <params>
             <param index="0">
               <value>
@@ -101,55 +101,55 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerDataProviderDriven -->
-        <test-method status="PASS" signature="signOut()[pri:0, instance:com.demoaut.NewTours2.RegisterPageTest@5c671d7f]" name="signOut" is-config="true" duration-ms="741" started-at="2020-01-09T15:59:56 CET" finished-at="2020-01-09T15:59:57 CET">
+        <test-method status="PASS" signature="signOut()[pri:0, instance:com.demoaut.NewTours2.RegisterPageTest@40ef3420]" name="signOut" is-config="true" duration-ms="711" started-at="2020-01-09T19:55:58 CET" finished-at="2020-01-09T19:55:59 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signOut -->
-        <test-method status="PASS" signature="registerExcelDriven()[pri:0, instance:com.demoaut.NewTours2.RegisterPageTest@5c671d7f]" name="registerExcelDriven" duration-ms="8223" started-at="2020-01-09T15:59:57 CET" finished-at="2020-01-09T16:00:05 CET">
+        <test-method status="PASS" signature="registerExcelDriven()[pri:0, instance:com.demoaut.NewTours2.RegisterPageTest@40ef3420]" name="registerExcelDriven" duration-ms="87297" started-at="2020-01-09T19:55:59 CET" finished-at="2020-01-09T19:57:26 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerExcelDriven -->
-        <test-method status="PASS" signature="signOut()[pri:0, instance:com.demoaut.NewTours2.RegisterPageTest@5c671d7f]" name="signOut" is-config="true" duration-ms="1558" started-at="2020-01-09T16:00:05 CET" finished-at="2020-01-09T16:00:07 CET">
+        <test-method status="PASS" signature="signOut()[pri:0, instance:com.demoaut.NewTours2.RegisterPageTest@40ef3420]" name="signOut" is-config="true" duration-ms="536" started-at="2020-01-09T19:57:26 CET" finished-at="2020-01-09T19:57:26 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signOut -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demoaut.NewTours2.RegisterPageTest@5c671d7f]" name="tearDown" is-config="true" duration-ms="44" started-at="2020-01-09T16:00:07 CET" finished-at="2020-01-09T16:00:07 CET">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demoaut.NewTours2.RegisterPageTest@40ef3420]" name="tearDown" is-config="true" duration-ms="44" started-at="2020-01-09T19:57:26 CET" finished-at="2020-01-09T19:57:27 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.demoaut.NewTours2.RegisterPageTest -->
     </test> <!-- RegisterUserTest -->
-    <test name="LoginPageTest" duration-ms="15301" started-at="2020-01-09T16:00:07 CET" finished-at="2020-01-09T16:00:22 CET">
+    <test name="LoginPageTest" duration-ms="81080" started-at="2020-01-09T19:57:27 CET" finished-at="2020-01-09T19:58:48 CET">
       <class name="com.demoaut.NewTours2.LoginPageTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.demoaut.NewTours2.LoginPageTest@37271612]" name="initialize" is-config="true" duration-ms="7524" started-at="2020-01-09T16:00:07 CET" finished-at="2020-01-09T16:00:14 CET">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.demoaut.NewTours2.LoginPageTest@dbf57b3]" name="initialize" is-config="true" duration-ms="7000" started-at="2020-01-09T19:57:27 CET" finished-at="2020-01-09T19:57:34 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="loginExcelDriven()[pri:0, instance:com.demoaut.NewTours2.LoginPageTest@37271612]" name="loginExcelDriven" duration-ms="7171" started-at="2020-01-09T16:00:14 CET" finished-at="2020-01-09T16:00:21 CET">
+        <test-method status="PASS" signature="loginExcelDriven()[pri:0, instance:com.demoaut.NewTours2.LoginPageTest@dbf57b3]" name="loginExcelDriven" duration-ms="73459" started-at="2020-01-09T19:57:34 CET" finished-at="2020-01-09T19:58:47 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginExcelDriven -->
-        <test-method status="PASS" signature="signOut()[pri:0, instance:com.demoaut.NewTours2.LoginPageTest@37271612]" name="signOut" is-config="true" duration-ms="560" started-at="2020-01-09T16:00:21 CET" finished-at="2020-01-09T16:00:22 CET">
+        <test-method status="PASS" signature="signOut()[pri:0, instance:com.demoaut.NewTours2.LoginPageTest@dbf57b3]" name="signOut" is-config="true" duration-ms="562" started-at="2020-01-09T19:58:47 CET" finished-at="2020-01-09T19:58:48 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signOut -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demoaut.NewTours2.LoginPageTest@37271612]" name="tearDown" is-config="true" duration-ms="44" started-at="2020-01-09T16:00:22 CET" finished-at="2020-01-09T16:00:22 CET">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demoaut.NewTours2.LoginPageTest@dbf57b3]" name="tearDown" is-config="true" duration-ms="54" started-at="2020-01-09T19:58:48 CET" finished-at="2020-01-09T19:58:48 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.demoaut.NewTours2.LoginPageTest -->
     </test> <!-- LoginPageTest -->
-    <test name="FlightFinderTest" duration-ms="11275" started-at="2020-01-09T16:00:22 CET" finished-at="2020-01-09T16:00:33 CET">
+    <test name="FlightFinderTest" duration-ms="38932" started-at="2020-01-09T19:58:48 CET" finished-at="2020-01-09T19:59:27 CET">
       <class name="com.demoaut.NewTours2.FlightFinderTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.demoaut.NewTours2.FlightFinderTest@1dac5ef]" name="initialize" is-config="true" duration-ms="9002" started-at="2020-01-09T16:00:22 CET" finished-at="2020-01-09T16:00:31 CET">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.demoaut.NewTours2.FlightFinderTest@14dd9eb7]" name="initialize" is-config="true" duration-ms="37587" started-at="2020-01-09T19:58:48 CET" finished-at="2020-01-09T19:59:25 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="findFlight()[pri:0, instance:com.demoaut.NewTours2.FlightFinderTest@1dac5ef]" name="findFlight" duration-ms="2225" started-at="2020-01-09T16:00:31 CET" finished-at="2020-01-09T16:00:33 CET">
+        <test-method status="PASS" signature="findFlight()[pri:0, instance:com.demoaut.NewTours2.FlightFinderTest@14dd9eb7]" name="findFlight" duration-ms="1298" started-at="2020-01-09T19:59:25 CET" finished-at="2020-01-09T19:59:27 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findFlight -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demoaut.NewTours2.FlightFinderTest@1dac5ef]" name="tearDown" is-config="true" duration-ms="46" started-at="2020-01-09T16:00:33 CET" finished-at="2020-01-09T16:00:33 CET">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demoaut.NewTours2.FlightFinderTest@14dd9eb7]" name="tearDown" is-config="true" duration-ms="47" started-at="2020-01-09T19:59:27 CET" finished-at="2020-01-09T19:59:27 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
